@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="navbar">
+  <a class="navbar-brand" routerLink="/">My Shop</a>
+  <ul class="nav navbar-nav pull-right">
+    <li class="active btn-success">
+      <a routerLink="/shoppingcar">Shopping Car</a>
+    </li>
+    <li li class="btn-info">
+      <a routerLink="login">Login</a>
+    </li>
+  </ul>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+

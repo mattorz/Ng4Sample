@@ -1,0 +1,6 @@
+<div *ngFor='let item of products'>
+  
+  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <img class="img-thumbnail" src="{{item.imgs[0]}}" (click)="onproductclick(item.key)" />
+  </div>
+</div>
